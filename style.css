@@ -1,1 +1,70 @@
+/* === General Styles === */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* === Header Styling === */
+.header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #2980b9;
+}
+
+.tagline {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* === Navigation Styling === */
+.navbar {
+    background-color: #2c3e50;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #34495e;
+}
+
+/* === Card Sections (Demonstrating Box Model) === */
+.card {
+    background-color: white;
+    margin: 20px auto; /* Margin creates space outside the element */
+    padding: 20px; /* Padding creates space inside the border */
+    border: 2px solid #ccc; /* Border surrounds padding & content */
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+/* === Footer Styling === */
+.footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* === Text Styles === */
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
 
